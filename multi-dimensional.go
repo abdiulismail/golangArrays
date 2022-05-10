@@ -10,8 +10,8 @@ func main() {
 		{"Calais", "Munich", "Frankfurt"},
 	}
 
-	for i := 0; i < 3; i++ {
-		for j := 0; j < 3; j++ {
+	for i := 0; i < len(countryCity); i++ {
+		for j := 0; j < len(countryCity); j++ {
 			fmt.Println(countryCity[i][j])
 		}
 	}
